@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Arvo:ital@0;1&family=DM+Serif+Display&family=Dancing+Script:wght@400;500&family=Dela+Gothic+One&family=Lilita+One&family=Merriweather:ital,wght@1,900&family=Rubik&family=Titan+One&display=swap');
+*{
+    font-family: 'Arvo', serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+nav{
+    position: sticky !important;
+    left: 0;
+    top: 0;
+    background-color: #1f2840 !important;
+    transition: 0.5s;
+}
+.navbar-brand{
+    font-weight: 1000;
+    font-size: 35px !important;
+    color: #0217f7 !important;
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: 25px !important;
+}
+.nav-link:hover{
+    color: #0217f7 !important;
+    text-decoration:underline 4px solid #0217f7;
+    text-shadow: 1px 2px 10px #0217f7;
+}
+#home .container-fluid img{
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 25%;
+    margin-right: 100px;
+    box-shadow: 2px 2px 40px 10px #0217f7;
+    border: 5px solid #0217f7;
+}
+#home .container-fluid{
+    width: 100%;
+    height: 100%;
+}
+.row h1{
+    font-size: 40px;
+    margin-left: 50px;
+    color:blue !important;
+}
+#home .container-fluid .row h3{
+    margin-top: 15%;
+    font-size: 40px;
+    margin-left: 50px;
+    /* color: white !important; */
+}
+#home .container-fluid .row h4{
+    font-size: 40px;
+    margin-left: 50px;
+    /* color: white !important; */
+}
+.row h2{
+    font-size: 50px;
+    margin-left: 50px;
+    color:blue !important;
+}
+.row p{
+    font-size: 25px;
+    margin-left: 50px;
+    /* color: white !important; */
+    /* z-index: 2; */
+}
+#about .container-fluid{
+    /* margin-top: 120px; */
+    width:100%;
+    height: 100%;
+}
+#about .container-fluid{
+    width: 100%;
+    padding: 30px;
+}
+#about .container-fluid h3{
+    margin-top: 10%;
+    margin-left: 4%;
+    font-size: 45px;
+    color: #0217f7 !important;
+}
+#about .container-fluid .row p{
+    color: black !important;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 50px;
+}
+#about .container-fluid ul{
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+
+    margin-left: 5%;
+}
+#about button{
+    margin-left: 45px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:#0217f7;
+    border-radius: 20px;
+    border: 2px solid #0217f7;
+    color: white !important;
+    transition: 0.5s;
+}
+#about button:hover{
+    box-shadow: 2px 3px 30px #0217f7;
+}
+#skills .container-fluid .row h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+#skills .container-fluid .row i{
+    margin: 15px;
+    color: #0217f7 !important;
+}
+#skills .container-fluid .row {
+    padding: 20px;
+}
+#skills .container-fluid  h2{
+    font-size: 35px;
+    margin-bottom: 5%;
+    margin-left:10%;
+}
+#skills .container-fluid h3:hover{
+    color:#0217f7 !important;
+}
+#skills .container-fluid h3{
+    color:black !important;
+    margin-left: 60px;
+    margin-top: 1%;
+
+}
+#services .container-fluid h1{
+    margin-top:6%;
+    color: #0217f7 !important;
+    font-size: 55px;
+    text-align: center;
+}
+#services .container-fluid h4{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: black !important;
+    text-align: center;
+}
+#services .container-fluid .description{
+    color:black!important;
+}
+#services .container-fluid .row h4{
+    color:#0217f7 !important;
+}
+#services .container-fluid .icon_box{
+    border:2px solid #0217f7;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#services .container-fluid .icon_box:hover{
+    /* background-color: #FF0059; */
+    box-shadow: 2px 2px 20px #0217f7;
+}
+#services .container-fluid .row img{
+    width: 50px;
+    height: 50px;
+    background:transparent;
+    margin-left: 45%;
+    margin-top: 5%;
+    /* border-radius: 50%; */
+}
+#services .container-fluid {
+    margin-left:-5px;
+}
+#home .container-fluid .contant a{
+    color: blue !important;
+    padding: 10px;
+    margin-left:50px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    transition: 0.5s;
+    text-align: center;
+}
+#home .container-fluid .contant a:hover{
+    background-color: blue;
+    color: white !important;
+    box-shadow: 2px 2px 20px blue;
+}
+#home .container-fluid button{
+    margin-top: 30px;
+    margin-left: 55px;
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.5s;
+    color: blue !important;
+    border: 2px solid blue;
+    background-color:#0217f7;
+    color: white !important;
+    text-align: center;
+}
+#home .container-fluid button:hover{
+    color: black !important;
+    box-shadow: 2px 3px 30px #0217f7;
+}
+#contact .container-fluid .heading h1{
+    text-align: center;
+    font-size: 45px;
+    margin-top:8%;
+}
+#contact .container-fluid .heading h4{
+    text-align: center;
+    color: black !important;
+}
+#contact .container-fluid .div{
+    margin-left: 5%;
+    padding: 10px;
+}
+#contact .container-fluid .div{
+    margin-top: 5%;
+}
+#contact .container-fluid .cont{
+    margin-top: 5%;
+}
+#contact .container-fluid .div h4{
+    margin-left: 45px;
+    color: #0217f7 !important;
+}
+#contact .container-fluid .div a{
+    margin-top:10px ;
+    border: 2px solid #0217f7;
+    border-radius: 50%;
+    padding: 10px;
+    color: #0217f7 !important;
+    position: absolute;
+}
+#contact .container-fluid .cont{
+    background: transparent;
+    color: black !important;
+    padding: 20px;
+}
+/* #contact .container-fluid .cont:hover{
+    box-shadow:3px 3px 50px  #03e6ff ;
+    border-radius: 20px;
+} */
+#contact .container-fluid .cont h3{
+    margin-top: -4%;
+    color: #0217f7 !important;
+    font-size: 30px;
+}
+#contact .container-fluid .cont input{
+    background: transparent;
+    margin-top: 3%;
+    padding: 10px;
+    width:90%;
+    margin-left: 30px;
+    color: black !important;
+    border:2px solid #0217f7;
+    border-radius: 
+    10px;
+}
+#contact .container-fluid .cont textarea{
+    background: transparent;
+    margin-top: 3%;
+    padding: 10px;
+    width:90%;
+    margin-left: 30px;
+    color: black !important;
+    border:2px solid #0217f7;
+    border-radius: 
+    10px;
+}
+#contact .container-fluid .cont label{
+    margin-top: 1%;
+    font-size: 25px;
+    color: black !important;
+}
+#contact .container-fluid .cont button{
+    padding: 10px;
+    color:white !important;
+    background-color: #0217f7;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 2px solid #0217f7;
+    border-radius: 10px;
+    width: 100px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+#contact .container-fluid .cont button:hover{
+    box-shadow: 2px 2px 20px #0217f7;
+}
+.but{
+    position: absolute;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    font-size: 35px;
+    border: 2px solid #0217f7;
+    border-radius: 10px;
+    color: black !important;
+    transition: 0.5s;
+}
+.but:hover{
+    background-color: #0217f7;
+    color: black !;
+    box-shadow: 2px 2px 20px #0217f7;
+}
+#projects .row img{
+    width: 500px;
+    height: 300px;
+    margin-left: 60px;
+}
